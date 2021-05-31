@@ -37,3 +37,18 @@ multilinea
 console.log(txtSinES6);
 console.log(txtConES6);
 //#endregion
+
+//#region Desestructuracion
+let person = {
+    'name' : 'Sebastian',
+    'age' : 18,
+    'country' :  'CO'
+}
+
+console.log(person.name, person.age, person.country);
+
+//ES6
+let { name, age, country } = person; 
+//dejo el o los atributos que quiero mostar en el let
+console.log(name, age, country);
+//#endregion
