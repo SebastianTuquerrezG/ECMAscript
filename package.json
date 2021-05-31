@@ -1,0 +1,11 @@
+{
+  "name": "ecmascript",
+  "version": "1.0.0",
+  "description": "caracteristicas de JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": " "
+  },
+  "author": "Sebastian",
+  "license": "ISC"
+}
