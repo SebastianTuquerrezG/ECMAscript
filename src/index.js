@@ -61,3 +61,18 @@ let fauna = ["Gonpachiro", ...animalsM, ...animalsR];
 
 console.log(fauna);
 //#endregion
+
+//#region LET, CONST y VAR
+{
+    var globalVar = "GlobalVar";
+}
+{
+    let globalLet = "GlobalLet";
+    console.log(globalLet);
+}
+
+console.log(globalVar);
+
+const sebas = "Tuquerrez"
+sebas = "Gomez" // esto no se puede es constante, la primera inicializacion.
+//#endregion 
