@@ -88,3 +88,31 @@ let objPerson = { name: name, age: age };
 let objPerson2 = { name, age };
 console.log(objPerson2);
 //#endregion
+
+//#region Arrow Functions
+const names = [
+    { name : "Sebastian", age : 18},
+    { name : "Joan", age : 19},
+    { name : "Tuquerrez", age: 20},
+    { name : "Gomez", age : 21}
+]
+
+let listNames = names.map(function (item){
+    console.log(item.name);
+})
+
+let listNamesES6 = names.map(item => console.log(item.name));
+
+const listNamesES62 = (names, age) => {
+    //Funcion anonima
+}
+
+const listNamesES63 = name => {
+    "Sebastian",
+    "Joan"
+}
+let num = 3;
+const square = num => num * num;
+console.log(square);
+//#endregion
+
