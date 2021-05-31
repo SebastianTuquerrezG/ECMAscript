@@ -76,3 +76,15 @@ console.log(globalVar);
 const sebas = "Tuquerrez"
 sebas = "Gomez" // esto no se puede es constante, la primera inicializacion.
 //#endregion 
+
+//#region Parametros en Objetos
+let name = "Sebatian";
+let age = 18;
+
+//ES5
+let objPerson = { name: name, age: age };
+
+//ES6
+let objPerson2 = { name, age };
+console.log(objPerson2);
+//#endregion
