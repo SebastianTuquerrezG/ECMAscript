@@ -52,3 +52,12 @@ let { name, age, country } = person;
 //dejo el o los atributos que quiero mostar en el let
 console.log(name, age, country);
 //#endregion
+
+//#region Spread Operator
+let animalsM = ["Perro", "Gato", "Hamster"];
+let animalsR = ["Serpiente", "Iguana", "Salamandra"];
+
+let fauna = ["Gonpachiro", ...animalsM, ...animalsR];
+
+console.log(fauna);
+//#endregion
