@@ -1,3 +1,4 @@
+//#region  Parametros Por Defecto
 function antesDeES6(name, age, country)
 {
     var name = name || "Sebastian";
@@ -14,3 +15,12 @@ function ahoraConES6(name = "Sebastian", age = 18, country = "CO")
 
 ahoraConES6();
 ahoraConES6("Joan", 19, "EU");
+//#endregion
+
+//#region Template Literals
+let L = "#SOS"
+let C = "Colombia"
+let sinES6 = L + " " + C;
+console.log(sinES6);
+let conES6 = `${L} ${C}`;
+console.log(conES6);
