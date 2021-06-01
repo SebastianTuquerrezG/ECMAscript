@@ -170,3 +170,9 @@ console.log(calc.sum(18,17));
 console.log(calc.mult(18,17));
 console.log(calc.div(18,17));
 //#endregion
+
+//#region Modulos
+import { numRand } from "./modulos.js";
+
+numRand();
+//#endregion
