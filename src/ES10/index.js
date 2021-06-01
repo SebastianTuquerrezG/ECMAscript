@@ -19,3 +19,19 @@ console.log(saludo);
 console.log(saludo.trimStart());
 console.log(saludo.trimEnd());
 //#endregion
+
+//#region Optional Catch Binding
+//Sin ES10
+try {
+    console.log('soy un error forzado')
+} catch (error){
+    console.error('Error');
+}
+//Con ES10
+try {
+    console.log('soy un error forzado');
+} catch {
+    error
+    console.error('Error');
+}
+//#endregion 
