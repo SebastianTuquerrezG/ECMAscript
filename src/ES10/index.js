@@ -35,3 +35,9 @@ try {
     console.error('Error');
 }
 //#endregion 
+
+//#region From Entries
+//Convertir de array a objeto
+let entries = [["name", "Sebastian"], ["age", 18]];
+console.log(Object.fromEntries(entries));
+//#endregion
