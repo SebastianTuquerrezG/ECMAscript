@@ -12,8 +12,13 @@ console.log(entries.length);
 
 //#region Object Values
 //Usando la variable data de la region anterior
-
 const values = Object.values(data);
 console.log(values);
 console.log(values.length);
+//#endregion
+
+//#region Padding
+const string = 'hello';
+
+console.log(string.padStart(20, 'the earth, say: '), string.padEnd(12, '-------'))
 //#endregion
