@@ -8,3 +8,11 @@ if(numbers.includes(28)) {
 }
 //Antes se usaba el indexof
 //#endregion
+
+//#region Operacion Exponencial
+let num = 28;
+let expo = 2;
+let result = num ** expo;
+
+console.log(result);
+//#endregion
