@@ -136,3 +136,37 @@ promise()
     .catch(error => console.log(error));
 //#endregion
 
+//#region Clases
+class calculator {
+    constructor(){
+        this.num1 = 0;
+        this.num2 = 0;
+    }
+    res(num1, num2){
+        this.num1 = num1;
+        this.num2 = num2;
+        return this.num1 - this.num2;
+    }
+    sum(num1, num2){
+        this.num1 = num1;
+        this.num2 = num2;
+        return this.num1 + this.num2;
+    }
+    mult(num1, num2){
+        this.num1 = num1;
+        this.num2 = num2;
+        return this.num1 * this.num2;
+    }
+    div(num1, num2){
+        this.num1 = num1;
+        this.num2 = num2;
+        return this.num1 / this.num2;
+    }
+}
+
+const calc = new calculator();
+console.log(calc.res(18,17));
+console.log(calc.sum(18,17));
+console.log(calc.mult(18,17));
+console.log(calc.div(18,17));
+//#endregion
