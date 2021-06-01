@@ -41,3 +41,10 @@ try {
 let entries = [["name", "Sebastian"], ["age", 18]];
 console.log(Object.fromEntries(entries));
 //#endregion
+
+//#region Object of Symbol Type
+//Ver los elemetos dentro de alguna variable
+let symbol = [["name", "Sebastian"], ["age", 18]];
+let mySymbol = Symbol(symbol);
+console.log(mySymbol.description);
+//#endregion
