@@ -22,3 +22,18 @@ const obj1 = {
 
 console.log(obj1);
 //#endregion
+
+//#region Promise Finally
+    const helloWorld = () => {
+        return new Promise((resolve, reject) => {
+            (true)
+                ? setTimeout(() => resolve('Hello World'), 3000) //resolve('Hello World')
+                : reject(new Error('Test Error'))
+        });
+    };
+
+    helloWorld()
+        .then(Response => console.log(Response))
+        .catch(error => console.log(error))
+        .finally(() => console.log('Finalizo'))
+//#endregion
