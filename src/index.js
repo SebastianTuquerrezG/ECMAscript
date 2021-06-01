@@ -176,3 +176,23 @@ import { numRand } from "./modulos.js";
 
 numRand();
 //#endregion
+
+//#region Generadores
+function* nums(){
+    if(true){
+        yield '28, ';
+    }  
+    if(true){
+        yield '2, ';
+    }  
+    if(true){
+        yield '2019';
+    } 
+};
+
+const generatorNums = nums();
+console.log(generatorNums.next().value);
+console.log(generatorNums.next().value);
+console.log(generatorNums.next().value);
+console.log(generatorNums.next().value);
+//#endregion
