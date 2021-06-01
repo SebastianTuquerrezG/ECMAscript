@@ -116,3 +116,23 @@ const square = num => num * num;
 console.log(square);
 //#endregion
 
+//#region Promesas
+//usando arrow function
+const promise = () => {
+    return new Promise((resolve, reject) => 
+    {
+    if(true) //o false
+        {
+            resolve("hey");
+        } else{
+            reject("Ups");
+        }
+    });
+}
+
+promise()
+    .then(response => console.log(response))
+    .then(() => console.log("hola"))
+    .catch(error => console.log(error));
+//#endregion
+
